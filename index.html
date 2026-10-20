@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saluyu Digital Nusantara - Jasa Pembuatan Website Profesional</title>
+
+  <link rel="icon" type="image/png" href="logo.png">
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts & FontAwesome Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              blue: '#0284c7',
+              dark: '#0f172a',
+              accent: '#38bdf8',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-sky-500 selection:text-white">
+
+  <!-- NAVBAR -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3">
+        <img src="logo.png" alt="Saluyu Digital Nusantara" class="h-10 w-auto object-contain">
+        <div>
+          <span class="text-lg font-bold text-white tracking-wide block leading-none">SALUYU</span>
+          <span class="text-xs text-sky-400 tracking-widest font-semibold">DIGITAL NUSANTARA</span>
+        </div>
+      </a>
+
+      <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+        <a href="#layanan" class="hover:text-sky-400 transition">Layanan</a>
+        <a href="#harga" class="hover:text-sky-400 transition">Harga</a>
+        <a href="#portofolio" class="hover:text-sky-400 transition">Portofolio</a>
+        <a href="#kontak" class="hover:text-sky-400 transition">Kontak</a>
+      </div>
+
+      <a href="https://wa.me/6285137421667?text=Halo%20Saluyu%20Digital%20Nusantara,%20saya%20ingin%20konsultasi%20pembuatan%20website" target="_blank" class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-sky-500 to-cyan-500 hover:from-sky-400 hover:to-cyan-400 text-white font-semibold text-sm shadow-lg shadow-sky-500/25 transition-all transform hover:-translate-y-0.5">
+        <i class="fab font-bold fa-whatsapp text-lg"></i> Konsultasi Gratis
+      </a>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="relative pt-36 pb-20 md:pt-48 md:pb-32 overflow-hidden">
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-sky-900/30 via-slate-950 to-slate-950 -z-10"></div>
+    <div class="max-w-7xl mx-auto px-6 text-center">
+
+      <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-sky-500/10 border border-sky-500/20 text-sky-400 text-xs md:text-sm font-semibold mb-6">
+        <span class="w-2 h-2 rounded-full bg-sky-400 animate-pulse"></span> Partner Digitalisasi UMKM & Bisnis Lokal
+      </span>
+
+      <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white tracking-tight max-w-4xl mx-auto leading-tight md:leading-none">
+        Solusi Website Profesional untuk <span class="bg-gradient-to-r from-sky-400 via-cyan-300 to-blue-500 bg-clip-text text-transparent">Mengembangkan Bisnis Anda</span>
+      </h1>
+
+      <p class="mt-6 text-lg md:text-xl text-slate-400 max-w-2xl mx-auto font-normal">
+        Tingkatkan kredibilitas dan jangkau lebih banyak pelanggan dengan website modern, cepat, dan terintegrasi sistem WhatsApp.
+      </p>
+
+      <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="https://wa.me/6285137421667?text=Halo%20Saluyu%20Digital,%20saya%20tertarik%20bikin%20website" target="_blank" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-sky-500 hover:bg-sky-400 text-white font-bold text-base shadow-xl shadow-sky-500/30 transition transform hover:-translate-y-0.5 text-center">
+          Mulai Konsultasi Gratis
+        </a>
+        <a href="#harga" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-200 font-semibold text-base transition text-center">
+          Lihat Paket Harga
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LAYANAN SECTION -->
+  <section id="layanan" class="py-20 bg-slate-900/50 border-y border-slate-800">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-white">Layanan Unggulan Kami</h2>
+        <p class="text-slate-400 mt-4">Kami menyediakan berbagai layanan pengembangan web yang disesuaikan dengan kebutuhan skala bisnis Anda.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-sky-500/50 transition group">
+          <div class="w-14 h-14 rounded-xl bg-sky-500/10 text-sky-400 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition">
+            <i class="fas fa-globe"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Website Bisnis / UMKM</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">Website resmi untuk menampilkan profil usaha, katalog produk/jasa, lokasi Google Maps, dan tombol WhatsApp.</p>
+        </div>
+
+        <div class="p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-sky-500/50 transition group">
+          <div class="w-14 h-14 rounded-xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Landing Page Penjualan</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">Halaman fokus konversi untuk promosi produk spesifik atau penawaran khusus agar angka penjualan meningkat.</p>
+        </div>
+
+        <div class="p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-sky-500/50 transition group">
+          <div class="w-14 h-14 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-3">Custom Web Application</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">Sistem web interaktif dengan fitur khusus seperti sistem booking, cek status kendaraan/pengerjaan, dan database custom.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HARGA / PAKET SECTION -->
+  <section id="harga" class="py-20">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-sky-400 text-sm font-semibold tracking-wider uppercase">Paket Harga</span>
+        <h2 class="text-3xl md:text-4xl font-bold text-white mt-2">Pilih Paket yang Sesuai Bisnis Anda</h2>
+        <p class="text-slate-400 mt-4">Harga transparan, tanpa biaya tersembunyi. Pengerjaan cepat dengan hasil profesional.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+
+        <!-- Paket 1: Starter -->
+        <div class="flex flex-col p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-sky-500/50 transition">
+          <div class="w-12 h-12 rounded-xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center text-xl mb-5">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white">Starter</h3>
+          <p class="text-slate-400 text-sm mt-1">Landing page untuk promosi & jualan</p>
+
+          <div class="mt-6 mb-6">
+            <span class="text-sm text-slate-500 line-through">Rp 1.200.000</span>
+            <div class="flex items-end gap-1">
+              <span class="text-4xl font-extrabold text-white">Rp 750rb</span>
+            </div>
+            <span class="text-xs text-slate-500">sekali bayar</span>
+          </div>
+
+          <ul class="space-y-3 text-sm text-slate-300 mb-8 flex-1">
+            <li class="flex items-start gap-3"><i class="fas fa-check-circle text-sky-400 mt-0.5"></i> 1 halaman (landing page)</li>
+            <li class="flex items-start gap-3"><i class="fas fa-check-circle text-sky-400 mt-0.5"></i> Desain modern & responsif (HP/laptop)</li>
+            <li class="flex items-start gap-3"><i class="fas fa-check-circle text-sky-400 mt-0.5"></i> Tombol WhatsApp terintegrasi</li>
+            <li class="flex items-start gap-3"><i class="fas fa-check-circle text-sky-400 mt-0.5"></i> Integrasi Google Maps</li>
+            <li class="flex items-start gap-3"><i class="fas fa-check-circle text-sky-400 mt-0.5"></i> Optimasi kecepatan dasar</li>
+            <li class="flex items-start gap-3"><i class="fas fa-check-circle text-sky-400 mt-0.5"></i> 1x revisi minor</li>
+            <li class="flex items-start gap-3"><i class="fas fa-check-circle text-sky-400 mt-0.5"></i> Estimasi pengerjaan 3-5 hari</li>
+          </ul>
+
+          <a href="https://wa.me/6285137421667?text=Halo%20Saluyu%20Digital,%20saya%20tertarik%20dengan%20Paket%20Starter" target="_blank" class="w-full text-center px-6 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white font-semibold text-sm transition">
+            Pilih Paket Starter
+          </a>
+        </div>
+
+        <!-- Paket 2: Bisnis (Populer) -->
+        <div class="relative flex flex-col p-8 rounded-2xl bg-slate-900 border-2 border-sky-500 shadow-2xl shadow-sky-500/20 md:-translate-y-4">
+          <span class="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1.5 rounded-full bg-gradient-to-r from-sky-500 to-cyan-500 text-white text-xs font-bold uppercase tracking-wider">
+            Paling Populer
+          </span>
+          <div class="w-12 h-12 rounded-xl bg-sky-500/10 text-sky-400 flex items-center justify-center text-xl mb-5">
+            <i class="fas fa-globe"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white">Bisnis</h3>
+          <p class="text-slate-400 text-sm mt-1">Website company profile / UMKM lengkap</p>
+
+          <div class="mt-6 mb-6">
+            <span class="text-sm text-slate-500 line-through">Rp 2.500.000</span>
+            <div class="flex items-end gap-1">
+              <span class="text-4xl font-extrabold text-white">Rp 1,75jt</span>
+            </div>
+            <span class="text-xs text-slate-500">sekali bayar</span>
+          </div>
+
+          <ul class="space-y-3 text-sm text-slate-300 mb-8 flex-1">
+            <li class="flex items-start gap-3"><i class="fas fa-check-circle text-sky-400 mt-0.5"></i> Hingga 5 halaman (Beranda, Tentang, Layanan, Katalog, Kontak)</li>
+            <li class="flex items-start gap-3"><i class="fas fa-check-circle text-sky-400 mt-0.5"></i> Katalog produk/jasa</li>
+            <li class="flex items-start gap-3"><i class="fas fa-check-circle text-sky-400 mt-0.5"></i> Desain custom sesuai brand</li>
+            <li class="flex items-start gap-3"><i class="fas fa-check-circle text-sky-400 mt-0.5"></i> Tombol WhatsApp & Google Maps</li>
+            <li class="flex items-start gap-3"><i class="fas fa-check-circle text-sky-400 mt-0.5"></i> SEO dasar (tampil di Google)</li>
+            <li class="flex items-start gap-3"><i class="fas fa-check-circle text-sky-400 mt-0.5"></i> Gratis domain .com/.id 1 tahun*</li>
+            <li class="flex items-start gap-3"><i class="fas fa-check-circle text-sky-400 mt-0.5"></i> 3x revisi</li>
+            <li class="flex items-start gap-3"><i class="fas fa-check-circle text-sky-400 mt-0.5"></i> Estimasi pengerjaan 7-10 hari</li>
+          </ul>
+
+          <a href="https://wa.me/6285137421667?text=Halo%20Saluyu%20Digital,%20saya%20tertarik%20dengan%20Paket%20Bisnis" target="_blank" class="w-full text-center px-6 py-3 rounded-xl bg-gradient-to-r from-sky-500 to-cyan-500 hover:from-sky-400 hover:to-cyan-400 text-white font-bold text-sm shadow-lg shadow-sky-500/30 transition">
+            Pilih Paket Bisnis
+          </a>
+        </div>
+
+        <!-- Paket 3: Custom -->
+        <div class="flex flex-col p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-sky-500/50 transition">
+          <div class="w-12 h-12 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center text-xl mb-5">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3 class="text-xl font-bold text-white">Custom App</h3>
+          <p class="text-slate-400 text-sm mt-1">Sistem web dengan fitur khusus</p>
+
+          <div class="mt-6 mb-6">
+            <span class="text-sm text-slate-500">Mulai dari</span>
+            <div class="flex items-end gap-1">
+              <span class="text-4xl font-extrabold text-white">Rp 3,5jt</span>
+            </div>
+            <span class="text-xs text-slate-500">harga final sesuai kebutuhan</span>
+          </div>
+
+          <ul class="space-y-3 text-sm text-slate-300 mb-8 flex-1">
+            <li class="flex items-start gap-3"><i class="fas fa-check-circle text-sky-400 mt-0.5"></i> Semua fitur paket Bisnis</li>
+            <li class="flex items-start gap-3"><i class="fas fa-check-circle text-sky-400 mt-0.5"></i> Sistem booking / cek status pengerjaan</li>
+            <li class="flex items-start gap-3"><i class="fas fa-check-circle text-sky-400 mt-0.5"></i> Database & panel admin</li>
+            <li class="flex items-start gap-3"><i class="fas fa-check-circle text-sky-400 mt-0.5"></i> Login & manajemen pengguna</li>
+            <li class="flex items-start gap-3"><i class="fas fa-check-circle text-sky-400 mt-0.5"></i> Fitur custom sesuai kebutuhan</li>
+            <li class="flex items-start gap-3"><i class="fas fa-check-circle text-sky-400 mt-0.5"></i> Revisi & support 30 hari</li>
+            <li class="flex items-start gap-3"><i class="fas fa-check-circle text-sky-400 mt-0.5"></i> Estimasi pengerjaan 3-6 minggu</li>
+          </ul>
+
+          <a href="https://wa.me/6285137421667?text=Halo%20Saluyu%20Digital,%20saya%20ingin%20konsultasi%20Custom%20Web%20App" target="_blank" class="w-full text-center px-6 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-white font-semibold text-sm transition">
+            Konsultasi Kebutuhan
+          </a>
+        </div>
+      </div>
+
+      <!-- Add-on & catatan -->
+      <div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="p-8 rounded-2xl bg-slate-900/60 border border-slate-800">
+          <h4 class="text-white font-bold mb-4"><i class="fas fa-plus-circle text-sky-400 mr-2"></i>Layanan Tambahan</h4>
+          <ul class="space-y-3 text-sm text-slate-300">
+            <li class="flex justify-between gap-4"><span>Domain .com / .id (per tahun)</span><span class="text-slate-400 whitespace-nowrap">± Rp 150rb - 250rb</span></li>
+            <li class="flex justify-between gap-4"><span>Hosting (per tahun)</span><span class="text-slate-400 whitespace-nowrap">± Rp 250rb - 500rb</span></li>
+            <li class="flex justify-between gap-4"><span>Halaman tambahan</span><span class="text-slate-400 whitespace-nowrap">Rp 150rb / halaman</span></li>
+            <li class="flex justify-between gap-4"><span>Maintenance bulanan</span><span class="text-slate-400 whitespace-nowrap">Rp 150rb / bulan</span></li>
+            <li class="flex justify-between gap-4"><span>Pengerjaan kilat (prioritas)</span><span class="text-slate-400 whitespace-nowrap">+30%</span></li>
+          </ul>
+        </div>
+
+        <div class="p-8 rounded-2xl bg-slate-900/60 border border-slate-800">
+          <h4 class="text-white font-bold mb-4"><i class="fas fa-info-circle text-sky-400 mr-2"></i>Sistem Pembayaran</h4>
+          <ul class="space-y-3 text-sm text-slate-300">
+            <li class="flex items-start gap-3"><i class="fas fa-check text-sky-400 mt-0.5"></i> DP 50% di awal, pelunasan setelah website selesai</li>
+            <li class="flex items-start gap-3"><i class="fas fa-check text-sky-400 mt-0.5"></i> Transfer bank / e-wallet</li>
+            <li class="flex items-start gap-3"><i class="fas fa-check text-sky-400 mt-0.5"></i> Bonus: panduan penggunaan website</li>
+          </ul>
+          <p class="text-xs text-slate-500 mt-4">*Gratis domain berlaku untuk tahun pertama. Perpanjangan dan biaya hosting mengikuti harga pada tabel layanan tambahan. Harga dapat berubah sewaktu-waktu.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTOFOLIO SECTION -->
+  <section id="portofolio" class="py-20 bg-slate-900/50 border-y border-slate-800">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-sky-400 text-sm font-semibold tracking-wider uppercase">Showcase Karya</span>
+        <h2 class="text-3xl md:text-4xl font-bold text-white mt-2">Portofolio Proyek Unggulan</h2>
+      </div>
+
+      <!-- Project Card: Bengkel Mobil Saluyu -->
+      <div class="rounded-3xl bg-slate-900 border border-slate-800 overflow-hidden grid grid-cols-1 lg:grid-cols-2 gap-8 items-center p-8 md:p-12">
+        <div>
+          <span class="px-3 py-1 rounded-md bg-sky-500/10 text-sky-400 text-xs font-bold uppercase tracking-wider">Web Application & Landing Page</span>
+          <h3 class="text-2xl md:text-3xl font-bold text-white mt-4 mb-4">Bengkel Mobil Saluyu</h3>
+          <p class="text-slate-400 text-sm md:text-base leading-relaxed mb-6">
+            Website interaktif yang dirancang untuk membantu bengkel otomotif mengelola janji temu pelanggan, katalog sparepart, serta pelacakan pengerjaan kendaraan secara akurat.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+            <div class="flex items-center gap-3 text-slate-300 text-sm">
+              <i class="fas fa-check-circle text-sky-400"></i> Booking Servis via WA
+            </div>
+            <div class="flex items-center gap-3 text-slate-300 text-sm">
+              <i class="fas fa-check-circle text-sky-400"></i> Katalog Sparepart
+            </div>
+            <div class="flex items-center gap-3 text-slate-300 text-sm">
+              <i class="fas fa-check-circle text-sky-400"></i> Cek Status Kendaraan
+            </div>
+            <div class="flex items-center gap-3 text-slate-300 text-sm">
+              <i class="fas fa-check-circle text-sky-400"></i> Integrasi Google Maps
+            </div>
+          </div>
+
+          <a href="https://wa.me/6285137421667?text=Halo,%20saya%20mau%20bikin%20website%20seperti%20Bengkel%20Mobil%20Saluyu" target="_blank" class="inline-flex items-center gap-2 text-sky-400 font-bold hover:text-sky-300 transition">
+            Ingin Website Seperti Ini? Hubungi Kami <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="rounded-xl overflow-hidden bg-slate-800 aspect-video flex flex-col items-center justify-center text-center border border-slate-700">
+          <img src="portofolio1.png" alt="Showcase Website Bengkel Mobil Saluyu" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"/>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER / KONTAK -->
+  <footer id="kontak" class="bg-slate-950 border-t border-slate-800 pt-16 pb-12">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-12">
+
+      <div>
+        <div class="flex items-center gap-3 mb-4">
+          <img src="logo.png" alt="Saluyu Digital Nusantara" class="h-10 w-auto object-contain">
+          <span class="text-lg font-bold text-white">SALUYU DIGITAL</span>
+        </div>
+        <p class="text-slate-400 text-sm leading-relaxed">
+          Saluyu Digital Nusantara adalah partner pembuatan website profesional yang berdomisili di Jakarta, siap melayani digitalisasi bisnis UMKM di seluruh Indonesia.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="text-white font-bold mb-4">Informasi Kontak</h4>
+        <ul class="space-y-3 text-slate-400 text-sm">
+          <li class="flex items-start gap-3">
+            <i class="fas fa-map-marker-alt text-sky-400 mt-1"></i>
+            <span>Jl. Parakan Mas Indah lll No.5, Jakarta, Indonesia</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <i class="fab fa-instagram text-sky-400"></i>
+            <a href="https://instagram.com/saluyudigital.id" target="_blank" class="hover:text-white transition">@saluyudigital.id</a>
+          </li>
+          <li class="flex items-center gap-3">
+            <i class="fab fa-facebook text-sky-400"></i>
+            <a href="https://facebook.com/saluyudigital.id" target="_blank" class="hover:text-white transition">@saluyudigital.id</a>
+          </li>
+          <li class="flex items-center gap-3">
+            <i class="fab fa-whatsapp text-sky-400"></i>
+            <span>+62 851-3742-1667</span>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-white font-bold mb-4">Konsultasi Instan</h4>
+        <p class="text-slate-400 text-sm mb-4">Punya pertanyaan atau ingin diskusi konsep website bisnismu?</p>
+        <a href="https://wa.me/6285137421667?text=Halo%20Saluyu%20Digital," target="_blank" class="inline-flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-sky-500 hover:bg-sky-400 text-white font-bold text-sm transition">
+          <i class="fab fa-whatsapp text-lg"></i> Chat Via WhatsApp
+        </a>
+      </div>
+
+    </div>
+
+    <div class="max-w-7xl mx-auto px-6 pt-8 border-t border-slate-900 text-center text-slate-500 text-xs">
+      &copy; 2026 Saluyu Digital Nusantara. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
